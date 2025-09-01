@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.signup-message {
+    margin: 20px;
+}
+
+.logogoogle, .logoface {
+    max-width: 30px; /* Tamanho ajustado para melhor visibilidade */
+    height: auto;
+}
+
+header {
+    background-color: #0026ff;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 6rem; /* Mantido igual ao site base */
+}
+
+.logo img {
+    height: 40px; /* Altura do logo */
+    width: auto;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem; /* Tamanho da fonte */
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem; /* Padding para dispositivos menores */
+    }
+
+    .nav-item {
+        display: none; /* Itens do menu ocultos em mobile */
+    }
+
+    .login-button {
+        display: none; /* Botão de login oculto em mobile */
+    }
+
+    .mobile-menu-icon {
+        display: block; /* Ícone do menu móvel exibido */
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%; /* Botão ocupa toda a largura */
+    }
+
+    .open {
+        display: block;
+    }
+}
+
+.form-container {
+    max-width: 600px; /* Largura do formulário */
+    margin: 2rem auto; /* Centralização */
+    padding: 1rem;
+    background: #e0f7fa; /* Cor de fundo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.form-container h4 {
+    margin-bottom: 1rem;
+    color: #4b4b4b;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /* Centralização do título */
+}
+
+.form-group {
+    margin-bottom: 1rem; /* Espaçamento entre grupos */
+}
+
+.social {
+    margin-top: 20px; /* Espaço para os botões sociais */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%; /* Ocupa toda a largura */
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 34px; /* Bordas arredondadas */
+    background-color: #0187a7;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #016f8b; /* Cor ao passar o mouse */
+}
+
+.logogoogle, .logoface {
+    max-width: 10px; /* Tamanho ajustado para melhor visibilidade */
+    height: auto;
+}
