@@ -1,4 +1,4 @@
-# viniimalvadeza123.hotelmaya.agendamento
+# projeto.academico.hotelmaya.agendamento
 # Hotel Mayata
 Este repositório contém o projeto do site "Hotel Mayata", criado para aprendizado contínuo de HTML e CSS em grupo. O objetivo é testar e aprimorar os conhecimentos adquiridos ao longo do curso, implementando gradualmente novos conceitos.
 
